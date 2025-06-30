@@ -1,0 +1,64 @@
+Company: STRONG CENTS ASSOCIATES
+MD: J.G.N.N. Kumara
+Contact: strongcentsa@gmail.com | +94 0711134381
+Address: 1/13/60/2020-09-22/49, Nest Lanka, Woodland Estate, Gonapinuwala, Galle, Sri Lanka.
+
+Website Goal: Professional, trustworthy site attracting businesses/individuals for accounting, tax, HR, audit.
+
+Key Differentiators: Comprehensive services, expert team, Xero/QuickBooks expertise, global system access, personalized solutions, Sri Lankan compliance.
+
+Website Structure & Content:
+
+Home Page:
+
+Headline: "Your Trusted Partner for Financial Excellence in Sri Lanka."
+
+Intro: Overview of Accounting & HR, Tax, Audit, Other services.
+
+Why Us: Brief points on expertise, tech, personalized approach, global access.
+
+CTA: "Explore Services," "Get a Free Consultation."
+
+About Us Page:
+
+Headline: "About STRONG CENTS ASSOCIATES."
+
+Content: Firm's vision/mission. MD's brief bio (J.G.N.N. Kumara). Elaborate on expertise, tech-driven solutions, personalized service, compliance.
+
+Services Page (Main Navigator):
+
+Headline: "Our Comprehensive Financial Services."
+
+Sections/Links to Sub-pages: Accounting & HR, Tax, Audit, Other Services.
+
+3.1. Accounting & HR Services:
+
+Key Services: Daily transaction recording, monthly/quarterly/annual financial statements, bookkeeping (Xero, QuickBooks, global access), payroll handling, EPF/ETF/PAYE calculation & submission, personal file maintenance.
+
+3.2. Tax Services:
+
+Key Services: Individual/Company tax computation, annual income tax return submission, monthly/quarterly tax schedules, VAT/Income Tax payment estimation, RAMIS system updates, all IRD registrations.
+
+3.3. Audit Services:
+
+Key Services: Internal Audit, Special Purpose Audit, Annual Statutory Audit.
+
+3.4. Other Services:
+
+Key Services: Company Registration, Business proposals (bank loans), Physical verification of inventories/fixed assets, Supply/installation of accounting/cheque writing/supporting software.
+
+Contact Us Page:
+
+Headline: "Get in Touch With Us."
+
+Content: Contact Form, Full Contact Info (Email, Phone, Address), Google Map embed.
+
+Design & Technical Notes:
+
+Style: Clean, modern, professional.
+
+Imagery: High-quality, relevant stock photos (business, finance, tech, collaboration).
+
+Responsiveness: Mobile-friendly design.
+
+Features: Functional contact form, interactive map.
