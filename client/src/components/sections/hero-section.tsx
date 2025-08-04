@@ -14,12 +14,12 @@ export default function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-              Your Trusted Partner for 
-              <span className="text-accent"> Financial Excellence</span> 
-              in Sri Lanka
+              Your Trusted
+              <span className="text-accent"> Accounting </span> 
+              Partnerin Sri Lanka
             </h1>
             <p className="text-xl text-blue-100 leading-relaxed">
-              Comprehensive accounting, tax, HR, and audit services delivered by expert professionals with cutting-edge technology and personalized solutions.
+              Comprehensive accounting, tax, and HR services delivered by expert professionals with cutting-edge technology and personalized solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
@@ -31,7 +31,7 @@ export default function HeroSection() {
               <Button
                 onClick={() => scrollToSection("contact")}
                 variant="outline"
-                className="border-2 border-white hover:bg-white hover:text-primary text-white px-8 py-4 h-auto font-semibold"
+                className="border-2 border-white bg-transparent hover:bg-white hover:text-primary text-white px-8 py-4 h-auto font-semibold transition-all duration-200"
               >
                 Get Free Consultation
               </Button>

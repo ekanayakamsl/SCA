@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Calculator } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import logoPath from "@assets/Logo.png";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -17,13 +18,15 @@ export default function Header() {
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <Calculator className="text-white text-lg" />
-            </div>
+          <div className="flex items-center space-x-3">
+            <img 
+              src={logoPath} 
+              alt="Strong Cents Associates Logo" 
+              className="w-12 h-12 object-contain"
+            />
             <div>
-              <h1 className="text-xl font-bold text-primary">STRONG CENTS</h1>
-              <p className="text-xs text-secondary uppercase tracking-wide">Associates</p>
+              <h1 className="text-xl font-bold text-primary">STRONG CENTS ASSOCIATES</h1>
+              <p className="text-xs text-secondary uppercase tracking-wide">Accountaints</p>
             </div>
           </div>
           

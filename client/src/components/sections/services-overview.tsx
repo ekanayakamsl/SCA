@@ -48,7 +48,7 @@ export default function ServicesOverview() {
             Comprehensive Financial Services
           </h2>
           <p className="text-xl text-secondary max-w-3xl mx-auto">
-            From daily bookkeeping to complex audits, we provide complete financial solutions tailored to your business needs.
+            From daily bookkeeping to management accounts, we offer comprehensive financial solutions tailored to meet your business needs.
           </p>
         </div>
         

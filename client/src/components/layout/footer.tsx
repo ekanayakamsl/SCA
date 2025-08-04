@@ -1,4 +1,5 @@
-import { Calculator, User, Mail, Phone } from "lucide-react";
+import { User, Mail, Phone } from "lucide-react";
+import logoPath from "@assets/Logo.png";
 
 export default function Footer() {
   const scrollToSection = (sectionId: string) => {
@@ -13,10 +14,12 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <Calculator className="text-white text-lg" />
-              </div>
+            <div className="flex items-center space-x-3 mb-6">
+              <img 
+                src={logoPath} 
+                alt="Strong Cents Associates Logo" 
+                className="w-12 h-12 object-contain"
+              />
               <div>
                 <h3 className="text-xl font-bold text-primary">STRONG CENTS</h3>
                 <p className="text-xs text-gray-400 uppercase tracking-wide">Associates</p>
