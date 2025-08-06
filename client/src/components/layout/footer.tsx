@@ -27,20 +27,20 @@ export default function Footer() {
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
               Your trusted partner for comprehensive financial services in Sri Lanka. 
-              Expert accounting, tax, HR, and audit solutions for businesses and individuals.
+              Expert accounting, tax, and HR solutions for businesses and individuals.
             </p>
             <div className="space-y-2">
               <p className="text-gray-300 flex items-center">
                 <User className="mr-2 h-4 w-4" />
-                <strong>MD:</strong> J.G.N.N. Kumara
+                <strong>MD:</strong> Noshantha Gunasekara
               </p>
               <p className="text-gray-300 flex items-center">
                 <Mail className="mr-2 h-4 w-4" />
-                strongcentsa@gmail.com
+                info@strongcents.lk
               </p>
               <p className="text-gray-300 flex items-center">
                 <Phone className="mr-2 h-4 w-4" />
-                +94 071 113 4381
+                +94 91 227 3445
               </p>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function Footer() {
                   onClick={() => scrollToSection("services")}
                   className="text-gray-300 hover:text-primary transition-colors"
                 >
-                  Accounting & HR
+                  Accounting Services
                 </button>
               </li>
               <li>
@@ -69,7 +69,7 @@ export default function Footer() {
                   onClick={() => scrollToSection("services")}
                   className="text-gray-300 hover:text-primary transition-colors"
                 >
-                  Audit Services
+                  HR Services
                 </button>
               </li>
               <li>

@@ -222,7 +222,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Email Address</h4>
-                    <p className="text-blue-100">strongcentsa@gmail.com</p>
+                    <p className="text-blue-100">info@strongcents.lk</p>
                   </div>
                 </div>
                 
@@ -232,7 +232,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Phone Number</h4>
-                    <p className="text-blue-100">+94 071 113 4381</p>
+                    <p className="text-blue-100">+94 91 227 3445</p>
                   </div>
                 </div>
                 
@@ -243,7 +243,7 @@ export default function ContactSection() {
                   <div>
                     <h4 className="font-semibold mb-1">Office Address</h4>
                     <p className="text-blue-100">
-                      1/13/60/2020-09-22/49, Nest Lanka,<br />
+                      No. 289, Nest Lanka,<br />
                       Woodland Estate, Gonapinuwala,<br />
                       Galle, Sri Lanka
                     </p>
@@ -257,7 +257,7 @@ export default function ContactSection() {
               <h4 className="font-semibold mb-4">Find Us on Map</h4>
               <div className="bg-white/10 rounded-lg overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126646.23999160238!2d80.06739715820315!3d6.053518100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae138d151937cd9%3A0x1d711f45897009a3!2sGalle%2C%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1699000000000!5m2!1sen!2slk"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.6986237688977!2d80.13699462517262!3d6.158272161332832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6dcb2442e8a01099%3A0x9515bcd28e65edc8!2sStrong%20Cents%20Associates!5e0!3m2!1sen!2slk!4v1754312068988!5m2!1sen!2slk"
                   width="100%"
                   height="300"
                   style={{ border: 0 }}

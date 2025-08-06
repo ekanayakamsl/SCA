@@ -1,33 +1,33 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { TrendingUp, FileText, Search, Settings, ArrowRight } from "lucide-react";
+import { FileSpreadsheet, ReceiptText, Users2, Briefcase, ArrowRight } from "lucide-react";
 
 const services = [
   {
-    icon: TrendingUp,
-    title: "Accounting & HR",
-    description: "Complete bookkeeping, payroll, and HR management with Xero and QuickBooks expertise.",
-    color: "bg-primary/10 text-primary",
+    icon: FileSpreadsheet,
+    title: "Accounting Services",
+    description: "Bookkeeping, reporting, and smart accounting with modern tools.",
+    color: "bg-blue-100 text-blue-600",
     anchor: "accounting"
   },
   {
-    icon: FileText,
+    icon: ReceiptText,
     title: "Tax Services",
     description: "Expert tax computation, filing, and compliance for individuals and companies.",
-    color: "bg-accent/10 text-accent",
+    color: "bg-yellow-100 text-yellow-700",
     anchor: "tax"
   },
   {
-    icon: Search,
-    title: "Audit Services",
-    description: "Comprehensive internal, special purpose, and statutory auditing services.",
-    color: "bg-green-100 text-green-600",
+    icon: Users2,
+    title: "HR Services",
+    description: "Payroll processing, EPF/ETF/PAYE handling, and complete HR support.",
+    color: "bg-rose-100 text-rose-600",
     anchor: "audit"
   },
   {
-    icon: Settings,
+    icon: Briefcase,
     title: "Other Services",
     description: "Company registration, business proposals, and software solutions.",
-    color: "bg-purple-100 text-purple-600",
+    color: "bg-indigo-100 text-indigo-600",
     anchor: "other"
   }
 ];

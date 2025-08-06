@@ -7,17 +7,18 @@ const features = [
   },
   {
     title: "Technology-Driven",
-    description: "Advanced solutions using Xero, QuickBooks, and global system access for efficient service delivery."
+    description: "We leverage advanced accounting and management systems to deliver efficient and accurate services."
   },
   {
     title: "Personalized Solutions",
-    description: "Tailored approaches that understand your unique business requirements and growth objectives."
+    description: "Tailored approaches designed to meet your unique business needs and growth objectives."
   },
   {
     title: "Local Compliance",
-    description: "Deep understanding of Sri Lankan regulations, RAMIS system, and IRD requirements."
+    description: "In-depth knowledge of Sri Lankan regulations, RAMIS system, and IRD requirements ensures full compliance."
   }
 ];
+
 
 export default function WhyChooseUs() {
   return (

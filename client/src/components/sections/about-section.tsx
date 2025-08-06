@@ -21,7 +21,7 @@ export default function AboutSection() {
               technology-driven solutions and personalized service excellence.
             </p>
             <p className="text-secondary leading-relaxed">
-              Our mission is to provide exceptional accounting, tax, HR, and audit services that ensure compliance, 
+              Our mission is to provide exceptional accounting, tax, and HR services that ensure compliance, 
               optimize financial performance, and support sustainable growth for our clients across diverse industries.
             </p>
           </div>
@@ -41,17 +41,17 @@ export default function AboutSection() {
               <div className="lg:col-span-1">
                 <img 
                   src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=400" 
-                  alt="J.G.N.N. Kumara - Managing Director" 
+                  alt="Noshantha Gunasekara - Founder & CEO" 
                   className="rounded-xl shadow-lg w-full h-auto"
                 />
               </div>
               <div className="lg:col-span-2 space-y-6">
                 <div>
-                  <h3 className="text-2xl font-bold mb-2">J.G.N.N. Kumara</h3>
-                  <p className="text-primary font-semibold text-lg">Managing Director</p>
+                  <h3 className="text-2xl font-bold mb-2">Noshantha Gunasekara</h3>
+                  <p className="text-primary font-semibold text-lg">Founder & CEO</p>
                 </div>
                 <p className="text-secondary leading-relaxed">
-                  With extensive experience in financial management and business consulting, Mr. Kumara leads 
+                  With extensive experience in financial management and business consulting, Mr. Noshantha leads 
                   Strong Cents Associates with a commitment to excellence and innovation. His expertise spans 
                   across international accounting standards, local compliance requirements, and strategic business 
                   development, ensuring our clients receive world-class service tailored to the Sri Lankan market.
@@ -59,11 +59,11 @@ export default function AboutSection() {
                 <div className="space-y-2">
                   <div className="flex items-center space-x-4">
                     <Mail className="text-primary h-4 w-4" />
-                    <span className="text-secondary">strongcentsa@gmail.com</span>
+                    <span className="text-secondary">info@strongcents.lk</span>
                   </div>
                   <div className="flex items-center space-x-4">
                     <Phone className="text-primary h-4 w-4" />
-                    <span className="text-secondary">+94 071 113 4381</span>
+                    <span className="text-secondary">+94 91 227 3445</span>
                   </div>
                 </div>
               </div>

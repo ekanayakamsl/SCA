@@ -1,6 +1,6 @@
 Company: STRONG CENTS ASSOCIATES
-MD: J.G.N.N. Kumara
-Contact: strongcentsa@gmail.com | +94 0711134381
+MD: Noshantha Gunasekara
+Contact: info@strongcents.lk | +94 0711134381
 Address: 1/13/60/2020-09-22/49, Nest Lanka, Woodland Estate, Gonapinuwala, Galle, Sri Lanka.
 
 Website Goal: Professional, trustworthy site attracting businesses/individuals for accounting, tax, HR, audit.
@@ -23,7 +23,7 @@ About Us Page:
 
 Headline: "About STRONG CENTS ASSOCIATES."
 
-Content: Firm's vision/mission. MD's brief bio (J.G.N.N. Kumara). Elaborate on expertise, tech-driven solutions, personalized service, compliance.
+Content: Firm's vision/mission. MD's brief bio (Noshantha Gunasekara). Elaborate on expertise, tech-driven solutions, personalized service, compliance.
 
 Services Page (Main Navigator):
 

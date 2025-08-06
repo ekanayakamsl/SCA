@@ -1,31 +1,29 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle, TrendingUp, FileText, Search, Settings } from "lucide-react";
+import { FileSpreadsheet, ReceiptText, Users2, Briefcase, CheckCircle } from "lucide-react";
+
 
 const serviceDetails = [
   {
     id: "accounting",
-    icon: TrendingUp,
-    title: "Accounting & HR Services",
-    color: "bg-primary/10 text-primary",
-    checkColor: "text-primary",
+    icon: FileSpreadsheet,
+    title: "Accounting Services",
+    color: "bg-blue-100 text-blue-600",
+    checkColor: "text-blue-600",
     image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600",
     imageAlt: "Financial documents and charts",
     features: [
       "Daily transaction recording and management",
       "Monthly, quarterly, and annual financial statements",
-      "Expert bookkeeping with Xero and QuickBooks",
-      "Complete payroll handling and processing",
-      "EPF/ETF/PAYE calculation and submission",
-      "Personal file maintenance and HR support"
+      "Expert bookkeeping with Xero and QuickBooks"
     ],
     background: "bg-white"
   },
   {
     id: "tax",
-    icon: FileText,
+    icon: ReceiptText,
     title: "Tax Services",
-    color: "bg-accent/10 text-accent",
-    checkColor: "text-accent",
+    color: "bg-yellow-100 text-yellow-700",
+    checkColor: "text-yellow-700",
     image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600",
     imageAlt: "Tax documents and calculations",
     features: [
@@ -40,29 +38,26 @@ const serviceDetails = [
     reverse: true
   },
   {
-    id: "audit",
-    icon: Search,
-    title: "Audit Services",
-    color: "bg-green-100 text-green-600",
-    checkColor: "text-green-600",
+    id: "hr",
+    icon: Users2,
+    title: "HR Services",
+    color: "bg-rose-100 text-rose-600",
+    checkColor: "text-rose-600",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600",
-    imageAlt: "Professional audit review",
+    imageAlt: "Professional HR review",
     features: [
-      "Comprehensive internal audit services",
-      "Special purpose audit engagements",
-      "Annual statutory audit compliance",
-      "Risk assessment and mitigation strategies",
-      "Financial control system evaluation",
-      "Detailed audit reporting and recommendations"
+      "Complete payroll handling and processing",
+      "EPF/ETF/PAYE calculation and submission",
+      "Personal file maintenance and HR support"
     ],
     background: "bg-white"
   },
   {
     id: "other",
-    icon: Settings,
+    icon: Briefcase,
     title: "Other Services",
-    color: "bg-purple-100 text-purple-600",
-    checkColor: "text-purple-600",
+    color: "bg-indigo-100 text-indigo-600",
+    checkColor: "text-indigo-600",
     image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600",
     imageAlt: "Business registration and software setup",
     features: [
