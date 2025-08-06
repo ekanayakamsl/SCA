@@ -1,5 +1,7 @@
 import { User, Mail, Phone } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import imgCeo from "@assets/img_ceo.webp";
+import imgVision from "@assets/img_vision.webp";
 
 export default function AboutSection() {
   return (
@@ -27,7 +29,7 @@ export default function AboutSection() {
           </div>
           <div>
             <img 
-              src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600" 
+              src={imgVision}
               alt="Professional business environment" 
               className="rounded-2xl shadow-lg w-full h-auto"
             />
@@ -40,7 +42,7 @@ export default function AboutSection() {
             <div className="grid lg:grid-cols-3 gap-8 items-center">
               <div className="lg:col-span-1">
                 <img 
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=400" 
+                  src={imgCeo} 
                   alt="Noshantha Gunasekara - Founder & CEO" 
                   className="rounded-xl shadow-lg w-full h-auto"
                 />

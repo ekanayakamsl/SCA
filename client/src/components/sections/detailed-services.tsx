@@ -1,5 +1,9 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { FileSpreadsheet, ReceiptText, Users2, Briefcase, CheckCircle } from "lucide-react";
+import imgAccounting from "@assets/img_accounting.webp";
+import imgTax from "@assets/img_tax.webp";
+import imgHr from "@assets/img_hr.webp";
+import imgOther from "@assets/img_other.webp";
 
 
 const serviceDetails = [
@@ -9,7 +13,7 @@ const serviceDetails = [
     title: "Accounting Services",
     color: "bg-blue-100 text-blue-600",
     checkColor: "text-blue-600",
-    image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600",
+    image: imgAccounting,
     imageAlt: "Financial documents and charts",
     features: [
       "Daily transaction recording and management",
@@ -24,7 +28,7 @@ const serviceDetails = [
     title: "Tax Services",
     color: "bg-yellow-100 text-yellow-700",
     checkColor: "text-yellow-700",
-    image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600",
+    image: imgTax,
     imageAlt: "Tax documents and calculations",
     features: [
       "Individual and company tax computation",
@@ -43,7 +47,7 @@ const serviceDetails = [
     title: "HR Services",
     color: "bg-rose-100 text-rose-600",
     checkColor: "text-rose-600",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600",
+    image: imgHr,
     imageAlt: "Professional HR review",
     features: [
       "Complete payroll handling and processing",
@@ -58,7 +62,7 @@ const serviceDetails = [
     title: "Other Services",
     color: "bg-indigo-100 text-indigo-600",
     checkColor: "text-indigo-600",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600",
+    image: imgOther,
     imageAlt: "Business registration and software setup",
     features: [
       "Complete company registration services",
