@@ -21,7 +21,7 @@ const services = [
     title: "HR Services",
     description: "Payroll processing, EPF/ETF/PAYE handling, and complete HR support.",
     color: "bg-rose-100 text-rose-600",
-    anchor: "audit"
+    anchor: "hr"
   },
   {
     icon: Briefcase,
