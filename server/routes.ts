@@ -2,6 +2,7 @@ import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { insertContactSchema } from "@shared/schema";
+import nodemailer from "nodemailer";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Contact form submission
@@ -9,9 +10,23 @@ export async function registerRoutes(app: Express): Promise<Server> {
     try {
       const validatedData = insertContactSchema.parse(req.body);
       const contact = await storage.createContact(validatedData);
+
+      const transporter = nodemailer.createTransport({
+        service: "gmail",
+        auth: {
+          user: "app@gmail.com", // your Gmail
+          pass: "app key",   // Gmail app password (NOT your login password)
+        },
+      });
       
       // In a real application, you would send an email here
       // For now, we'll just store the contact
+      await transporter.sendMail({
+       from: `"Website Contact Form" <${validatedData.email}>`,
+       to: "addmin.com", // Where you want to receive the email
+       subject: "New Contact Form Submission",
+       text: `Name: ${validatedData.name}\nEmail: ${validatedData.email}\nMessage:\n${validatedData.message}`,
+      });
       
       res.json({ success: true, message: "Contact form submitted successfully" });
     } catch (error) {
