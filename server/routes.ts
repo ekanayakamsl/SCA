@@ -14,8 +14,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-          user: "app@gmail.com", // your Gmail
-          pass: "app key",   // Gmail app password (NOT your login password)
+          user: process.env.EMAIL_USER, // your Gmail
+          pass: process.env.EMAIL_PASS,   // Gmail app password (NOT your login password)
         },
       });
       
@@ -23,7 +23,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       // For now, we'll just store the contact
       await transporter.sendMail({
        from: `"Website Contact Form" <${validatedData.email}>`,
-       to: "addmin.com", // Where you want to receive the email
+       to: process.env.EMAIL_TO, // Where you want to receive the email
        subject: "New Contact Form Submission",
        text: `Name: ${validatedData.name}\nEmail: ${validatedData.email}\nMessage:\n${validatedData.message}`,
       });
