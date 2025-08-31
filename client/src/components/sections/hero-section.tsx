@@ -17,7 +17,7 @@ export default function HeroSection() {
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
               Your Trusted
               <span className="text-accent"> Accounting </span> 
-              Partnerin Sri Lanka
+              Partner in Sri Lanka
             </h1>
             <p className="text-xl text-blue-100 leading-relaxed">
               Comprehensive accounting, tax, and HR services delivered by expert professionals with cutting-edge technology and personalized solutions.
