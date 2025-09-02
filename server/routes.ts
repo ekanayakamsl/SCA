@@ -8,27 +8,61 @@ export async function registerRoutes(app: Express): Promise<Server> {
   // Contact form submission
   app.post("/api/contacts", async (req, res) => {
     try {
+      // Validate incoming data
       const validatedData = insertContactSchema.parse(req.body);
+
+      // Store contact in database
       const contact = await storage.createContact(validatedData);
 
+      // Configure transporter for Gmail
       const transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
           user: process.env.EMAIL_USER, // your Gmail
-          pass: process.env.EMAIL_PASS,   // Gmail app password (NOT your login password)
+          pass: process.env.EMAIL_PASS,  // Gmail app password (NOT login password)
         },
       });
-      
-      // In a real application, you would send an email here
-      // For now, we'll just store the contact
+
+      // 1️⃣ Send email to yourself (notification)
       await transporter.sendMail({
-       from: `"Website Contact Form" <${validatedData.email}>`,
-       to: process.env.EMAIL_TO, // Where you want to receive the email
-       subject: "New Contact Form Submission",
-       text: `Name: ${validatedData.name}\nEmail: ${validatedData.email}\nMessage:\n${validatedData.message}`,
+        from: `"Website Contact Form" <${validatedData.email}>`,
+        to: process.env.EMAIL_TO, // Where you want to receive the email
+        subject: "New Contact Form Submission",
+        text: `
+Name: ${validatedData.name}
+Email: ${validatedData.email}
+Phone Number: ${validatedData.phone}
+Company: ${validatedData.company}
+Message:
+${validatedData.message}
+        `,
       });
-      
-      res.json({ success: true, message: "Contact form submitted successfully" });
+
+      // 2️⃣ Send auto-reply to the user
+      await transporter.sendMail({
+        from: `"Strong Cents Associates" <${process.env.EMAIL_USER}>`,
+        to: validatedData.email,
+        subject: "We've received your message",
+        text: `
+Hi ${validatedData.name},
+
+Thank you for reaching out to Strong Cents Associates.
+
+Our team has received your message and will get back to you shortly.
+
+If your inquiry is urgent, feel free to contact us directly at +94-XX-XXXXXXX.
+
+Best regards,
+Strong Cents Associates
+        `,
+      });
+
+      // Respond to client
+      res.json({ 
+        success: true, 
+        message: "Contact form submitted successfully" 
+      });
+
     } catch (error) {
       console.error("Contact form error:", error);
       res.status(400).json({ 
@@ -49,6 +83,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // Create and return HTTP server
   const httpServer = createServer(app);
   return httpServer;
 }
