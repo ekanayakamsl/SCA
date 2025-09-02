@@ -50,7 +50,7 @@ Thank you for reaching out to Strong Cents Associates.
 
 Our team has received your message and will get back to you shortly.
 
-If your inquiry is urgent, feel free to contact us directly at +94-XX-XXXXXXX.
+If your inquiry is urgent, feel free to contact us directly at +94 91 227 3445.
 
 Best regards,
 Strong Cents Associates
