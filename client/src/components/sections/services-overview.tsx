@@ -48,7 +48,7 @@ export default function ServicesOverview() {
             Comprehensive Financial Services
           </h2>
           <p className="text-xl text-secondary max-w-3xl mx-auto">
-            From daily bookkeeping to management accounts, we offer comprehensive financial solutions tailored to meet your business needs.
+            We provide end-to-end financial solutions designed to support your business at every stage. From accurate daily bookkeeping to insightful management accounts, our services are tailored to ensure compliance, efficiency, and informed decision-making.
           </p>
         </div>
         

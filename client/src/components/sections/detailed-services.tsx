@@ -18,7 +18,7 @@ const serviceDetails = [
     features: [
       "Daily transaction recording and management",
       "Monthly, quarterly, and annual financial statements",
-      "Expert bookkeeping with Xero and QuickBooks"
+      "Expert bookkeeping with cutting-edge technologies"
     ],
     background: "bg-white"
   },

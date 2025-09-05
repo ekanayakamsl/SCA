@@ -32,11 +32,11 @@ export default function Footer() {
             <div className="space-y-2">
               <p className="text-gray-300 flex items-center">
                 <User className="mr-2 h-4 w-4" />
-                <strong>MD:</strong> Noshantha Gunasekara
+                <strong>Founder & CEO:</strong> Noshantha Gunasekara
               </p>
               <p className="text-gray-300 flex items-center">
                 <Mail className="mr-2 h-4 w-4" />
-                info@strongcents.lk
+                accounts@strongcents.lk
               </p>
               <p className="text-gray-300 flex items-center">
                 <Phone className="mr-2 h-4 w-4" />
@@ -124,7 +124,7 @@ export default function Footer() {
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 Strong Cents Associates. All rights reserved. | Professional Financial Services in Sri Lanka
+            © 2025 Strong Cents Associates. All rights reserved. | Professional Financial Services in Sri Lanka
           </p>
         </div>
       </div>

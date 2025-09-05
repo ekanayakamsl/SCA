@@ -222,7 +222,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Email Address</h4>
-                    <p className="text-blue-100">info@strongcents.lk</p>
+                    <p className="text-blue-100">accounts@strongcents.lk</p>
                   </div>
                 </div>
                 

@@ -16,7 +16,7 @@ export default function HeroSection() {
           <div className="space-y-8">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
               Your Trusted
-              <span className="text-accent"> Accounting </span> 
+              <span className="text-accent"> Accounts </span> 
               Partner in Sri Lanka
             </h1>
             <p className="text-xl text-blue-100 leading-relaxed">
