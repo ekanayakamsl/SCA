@@ -10,7 +10,7 @@ export default function AboutSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4">About Strong Cents Associates</h2>
           <p className="text-xl text-secondary max-w-3xl mx-auto">
-            Building trust through expertise, integrity, and innovation in financial services.
+            Your success is our business.
           </p>
         </div>
         
@@ -18,13 +18,13 @@ export default function AboutSection() {
           <div className="space-y-6">
             <h3 className="text-2xl font-bold">Our Vision & Mission</h3>
             <p className="text-secondary leading-relaxed">
-              At Strong Cents Associates, we provide specialized Business Process Outsourcing (BPO) solutions with a strong focus on accounting, bookkeeping, payroll, HR, and compliance services. As a trusted partner, we help businesses streamline their operations, reduce overheads, and stay fully compliant with regulatory requirements.
+              At Strong Cents Associates, we envision becoming Sri Lanka's most trusted financial services partner, 
+              empowering businesses and individuals to achieve their financial goals through comprehensive, 
+              technology-driven solutions and personalized service excellence.
             </p>
             <p className="text-secondary leading-relaxed">
-              Our expertise lies in offering end-to-end support for finance and human resource functions, allowing organizations to focus on growth while we manage their critical back-office tasks. With a team of qualified professionals, proven processes, and a commitment to accuracy and confidentiality, we ensure reliable and efficient outsourcing solutions tailored to your business needs.
-            </p>
-            <p className="text-secondary leading-relaxed">
-              Whether you are a startup, SME, or established enterprise, Strong Cents Associates is here to deliver cost-effective, high-quality outsourcing services that drive efficiency, enhance productivity, and support sustainable success.
+              Our mission is to provide exceptional accounting, tax, and HR services that ensure compliance, 
+              optimize financial performance, and support sustainable growth for our clients across diverse industries.
             </p>
           </div>
           <div>
