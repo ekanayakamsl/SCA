@@ -16,11 +16,11 @@ export default function HeroSection() {
           <div className="space-y-8">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
               Your Trusted
-              <span className="text-accent"> Accounts </span> 
+              <span className="text-accent"> Accounting </span> 
               Partner in Sri Lanka
             </h1>
             <p className="text-xl text-blue-100 leading-relaxed">
-              Comprehensive accounting, tax, and HR services delivered by expert professionals with cutting-edge technology and personalized solutions.
+              At Strong Cents Associates, we provide specialized Business Process Outsourcing (BPO) solutions with a strong focus on accounting, bookkeeping, payroll, HR, and compliance services. As a trusted partner, we help businesses streamline their operations, reduce overheads, and stay fully compliant with regulatory requirements.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
