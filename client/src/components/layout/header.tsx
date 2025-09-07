@@ -26,7 +26,7 @@ export default function Header() {
             />
             <div>
               <h1 className="text-xl font-bold text-primary">STRONG CENTS ASSOCIATES</h1>
-              <p className="text-xs text-secondary uppercase tracking-wide">Accountaints</p>
+              <p className="text-xs text-secondary uppercase tracking-wide">Accountants</p>
             </div>
           </div>
           

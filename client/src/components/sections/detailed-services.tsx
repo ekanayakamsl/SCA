@@ -17,8 +17,11 @@ const serviceDetails = [
     imageAlt: "Financial documents and charts",
     features: [
       "Daily transaction recording and management",
+      "Bank reconciliation and cash flow monitoring",
       "Monthly, quarterly, and annual financial statements",
-      "Expert bookkeeping with cutting-edge technologies"
+      "Expert bookkeeping with cutting-edge technologies",
+      "Budgeting, forecasting, and financial analysis",
+      "Management reports for decision making"
     ],
     background: "bg-white"
   },
@@ -32,11 +35,12 @@ const serviceDetails = [
     imageAlt: "Tax documents and calculations",
     features: [
       "Individual and company tax computation",
-      "Annual income tax return submission",
+      "Annual income tax return preparation and submission",
       "Monthly and quarterly tax schedules",
       "VAT and income tax payment estimation",
       "RAMIS system updates and management",
-      "All IRD registrations and compliance"
+      "All IRD registrations and compliance",
+      "Advisory on tax planning and compliance"
     ],
     background: "bg-neutral",
     reverse: true
@@ -44,7 +48,7 @@ const serviceDetails = [
   {
     id: "hr",
     icon: Users2,
-    title: "HR Services",
+    title: "HR & Payroll Services",
     color: "bg-rose-100 text-rose-600",
     checkColor: "text-rose-600",
     image: imgHr,
@@ -52,7 +56,10 @@ const serviceDetails = [
     features: [
       "Complete payroll handling and processing",
       "EPF/ETF/PAYE calculation and submission",
-      "Personal file maintenance and HR support"
+      "Personal file maintenance and HR support",
+      "Labour law compliance and advisory",
+      "Preparation of employee letters and contracts",
+      "Leave and attendance management"
     ],
     background: "bg-white"
   },
@@ -66,11 +73,13 @@ const serviceDetails = [
     imageAlt: "Business registration and software setup",
     features: [
       "Complete company registration services",
-      "Business proposals for bank loans",
+      "Business name registrations",
+      "Business proposals and feasibility reports for bank loans",
       "Physical verification of inventories",
       "Fixed assets verification and valuation",
       "Accounting software supply and installation",
-      "Cheque writing and supporting software solutions"
+      "Cheque writing and supporting software solutions",
+      "Secretarial support and compliance filing"
     ],
     background: "bg-neutral",
     reverse: true
@@ -82,7 +91,7 @@ export default function DetailedServices() {
     <section id="services" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-4">Our Comprehensive Financial Services</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold mb-4">Explore Our Services</h2>
           <p className="text-xl text-secondary max-w-3xl mx-auto">
             Detailed breakdown of our specialized service offerings across all financial disciplines.
           </p>

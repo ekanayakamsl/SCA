@@ -15,7 +15,7 @@ const features = [
   },
   {
     title: "Local Compliance",
-    description: "In-depth knowledge of Sri Lankan regulations, RAMIS system, and IRD requirements ensures full compliance."
+    description: "In-depth knowledge of Sri Lankan regulations, RAMIS system, IRD requirements, and labour laws ensures full compliance."
   }
 ];
 

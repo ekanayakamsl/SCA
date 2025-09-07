@@ -45,10 +45,13 @@ export default function ServicesOverview() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Comprehensive Financial Services
+            Our Services
           </h2>
           <p className="text-xl text-secondary max-w-3xl mx-auto">
-            We provide end-to-end financial solutions designed to support your business at every stage. From accurate daily bookkeeping to insightful management accounts, our services are tailored to ensure compliance, efficiency, and informed decision-making.
+            Our expertise lies in offering end-to-end support for finance and human resource functions, allowing organizations to focus on growth while we manage their critical back-office tasks. With a team of qualified professionals, proven processes, and a commitment to accuracy and confidentiality, we ensure reliable and efficient outsourcing solutions tailored to your business needs.
+          </p>
+          <p className="text-xl text-secondary max-w-3xl mx-auto">
+            Whether you are a startup, SME, or established enterprise, Strong Cents Associates is here to deliver cost-effective, high-quality outsourcing services that drive efficiency, enhance productivity, and support sustainable success.
           </p>
         </div>
         
